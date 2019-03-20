@@ -12,8 +12,8 @@ body {
 }
 
 .navbar {
-	background: image_url('purple.png');
-	box-shadow: 0px 1px 3px #2a2a2a;
+	background: image_url('grey.png');
+	box-shadow: white;
 	margin-bottom: 0;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -24,6 +24,7 @@ body {
 .navbar-inverse .navbar-brand {
 	color: #C0DCF4;
 	font-family: 'Montserrat', sans-serif; 
+	position: right;
 	
 }
 
@@ -40,12 +41,17 @@ h1 {
 h2 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 70px;
+	text-align: center;
 }
 
 h3 {
-	color: white;
+	color: #1F85DE;
 	margin-left: 55px;
 	margin-right: 55px;
+}
+
+u {
+	color: #1F85DE;
 }
 
 p {
@@ -71,7 +77,7 @@ p {
 	margin-right: 70px;
 }
 
-.pic2 {
+.village {
 	float: right;
 	maring-right: 70px;
 }
@@ -81,3 +87,17 @@ p {
 	margin-right: 70px;	
 }
 
+.train {
+	float: right;
+	margin-right: 70px;
+}
+
+.ocean {
+	float: right;
+	margin-right: 70px;
+}
+
+.bridges {
+	float: right;
+	margin-right: 70px;
+}
