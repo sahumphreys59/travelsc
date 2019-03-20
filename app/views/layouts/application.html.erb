@@ -14,21 +14,23 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Welcome</a>
+     
+     <%=link_to image_tag("santacruzca.png"), home_path, class: 'navbar-brand' %>
 
+      <br />
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-          
           <li class="nav-item">
-            <a class="nav-link" href="#">Attractions</a>
+            <%= link_to 'Attractions', attractions_path, class: 'navbar-brand' %>
           </li>
+          <br />
           <li class="nav-item">
-            <a class="nav-link" href="#">Restaurants</a>
+            <%= link_to 'Restuarants', restuarants_path, class: 'navbar-brand' %>
           </li>
+          <br />
           <li class="nav-item">
-            <a class="nav-link" href="#">Sites</a>
+            <%= link_to 'Sites', sites_path, class: 'navbar-brand' %>
           </li>
-        
         </ul>
       </div>
     </nav>

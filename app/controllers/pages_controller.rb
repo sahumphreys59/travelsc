@@ -1,6 +1,14 @@
 class PagesController < ApplicationController
+	def home
+	end	
 
-	def index
+	def sites
+	end
+	
+	def attractions
+	end
+
+	def restuarants
 	end
 		
 end
