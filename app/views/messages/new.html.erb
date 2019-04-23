@@ -1,0 +1,17 @@
+<h2>Add a Message</h2>
+
+<br />
+
+<div class="booyah-box col-10 offset-1">	
+	<%= simple_form_for Message.new do |f| %>
+		<%= f.input :topic %>
+		<%= f.input :saying %>
+		<br />
+		<%= f.submit 'Share', class: 'btn btn-danger' %>
+	<% end %>	
+</div>	
+
+<br />
+<br />
+<br />
+
